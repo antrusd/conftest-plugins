@@ -1,0 +1,12 @@
+name: "pip-requirements"
+version: "0.1.0"
+usage: conftest pip-requirements [command] [file].
+description: |-
+  A Conftest plugin for parsing python requirements.txt
+  Usage: [command] [file]
+
+  positional arguments:
+    command     conftest command
+    file        requirements.txt file
+
+command: $CONFTEST_PLUGIN_DIR/pip-requirements-conftest
